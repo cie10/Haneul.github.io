@@ -1,0 +1,253 @@
+.profile-container {
+    background-color: #fff;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .profile-header {
+    background-color: #91d0f6;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    letter-spacing: -0.41px;
+    padding: 9px 14px 16px;
+    font: 600 16px/1 Inter, sans-serif;
+  }
+  
+  .profile-content {
+    display: flex;
+    margin-top: 14px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: -0.41px;
+  }
+  
+  .profile-card {
+    border-radius: 30px;
+    background-color: #f0fafe;
+    display: flex;
+    width: 213px;
+    max-width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    color: #000;
+    padding: 21px 17px;
+  }
+  
+  .profile-image {
+    aspect-ratio: 0.86;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+  .profile-info {
+    align-self: end;
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    gap: 3px;
+  }
+  
+  /* .profile-name-age {
+    text-align: center;
+    align-self: stretch;
+    width: 93px;
+    margin: auto 0;
+    font: 400 20px/1 'Inria Sans', sans-serif;
+  }
+   */
+    .profile-name-age {
+    /* text-align: center;
+    align-self: stretch; */
+    width: 100px;
+    margin: auto 0;
+    font: 400 20px/1 'Inria Sans', sans-serif;
+  }
+  .profile-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 18px;
+    margin-right: 5px;
+  }
+  
+  .rating-value {
+    margin-left:5px;
+    font: 600 8px/22px Inter, sans-serif;
+  }
+  
+  .profile-social {
+    color: #91d0f6;
+    text-align: center;
+    align-self: center;
+    font: 600 16px/1 Inter, sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .profile-tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.26px;
+    margin: 5px 17px 0;
+    font: 600 10px/1 Inter, sans-serif;
+    justify-content: center; /* Center items inside the flex container */
+    margin-bottom: 20px;
+  }
+
+  .tag {
+    border-radius: 19px;
+    background-color: #91d0f6;
+    padding: 2px 19px;
+  }
+  
+  .divider {
+    align-self: stretch;
+    min-height: 1px;
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+  }
+  
+  .profile-actions {
+    display: flex;
+    margin-top: 15px;
+    align-items: start;
+    font-family: Inter, sans-serif;
+    color: #000;
+    text-align: center;
+    line-height: 23px;
+  }
+  
+  .action-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+    font-weight: 300;
+    width: 86px;
+  }
+  
+  .action-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 25px;
+    align-self: center;
+  }
+  .action-letter-icon{
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 25px;
+    align-self: center;
+    font-size: medium;
+  }
+  .news-section {
+    display: flex;
+    margin-top: 15px;
+    width: 330px;
+    max-width: 100%;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+  }
+  
+  .news-header {
+    display: flex;
+    width: 100%;
+    align-items: start;
+    gap: 40px 100px;
+    line-height: 22px;
+    justify-content: space-between;
+  }
+  
+  .news-title {
+    color: #91d0f6;
+    font-size: 16px;
+    width: 120px;
+  }
+  
+  .notification-settings {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 8px;
+    color: #878787;
+    white-space: nowrap;
+  }
+  
+  .news-content {
+    color: #000;
+    font-size: 12px;
+    line-height: 25px;
+    margin: 7px 32px 0 0;
+  }
+  
+  .news-more {
+    color: #000;
+    font-size: 12px;
+    line-height: 2;
+    align-self: center;
+    margin-top: 29px;
+  }
+  
+  .footer {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 18px 57px;
+    border: 1px solid #d9d9d9;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
+  .icon-container {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 40px 101px;
+    justify-content: start;
+    margin: auto;
+  }
+  
+  .footer-icon {
+    aspect-ratio: 0.94;
+    object-fit: contain;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .footer-icon-wide {
+    aspect-ratio: 1.41;
+    width: 24px;
+  }
+  
+  .footer-icon-tall {
+    aspect-ratio: 0.95;
+    width: 18px;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
